@@ -42,7 +42,13 @@ Alguna de les decisions que shan pres es, per exemple, excloure el temps de son 
 A mode ilustratiu sha agafat "el dia d'avui" com a l'ultim dia de la mostra del .json.
 
 **COM EXECUTAR-LO**        
-El programa està escrit en python per el que executar-lo hauria de ser senzill:
+El programa està escrit en python per el que executar-lo hauria de ser senzill. El `.venv` no està pujat al repositori, així que cal crear-lo el primer cop:
+
+    cd [RUTA]/digital-wellbeing
+    python3 -m venv .venv
+    .venv/bin/pip install -r requirements.txt
+
+Un cop instal·lat:
 
     En una terminal executarem:
         cd [RUTA]/digital-wellbeing/ui
